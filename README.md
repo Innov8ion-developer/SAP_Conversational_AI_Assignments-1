@@ -13,7 +13,7 @@ Make sure you have all prerequisites set up before starting with this assignment
 During this assignment we will be using the chatbot memory to store the important values given to us by the user.
 
 #### Step 1: Create a folder
-Create a new folder for your webhook application
+Create a new folder for your webhook application somewhere in your operating system.
 
 #### Step 2: Initialize the application
 Open a command prompt window and navigate to your webhook application folder. Enter the following command and press enter:
@@ -151,7 +151,7 @@ Look for your deployed and started application on the SCP Cloud Foundry environm
 
 https://webhookrecast.cfapps.eu10.hana.ondemand.com
 
-You can find this url by logging into your [SCP trial account](http://account.hanatrial.ondemand.com) and navigating to the Cloud Foundry environment via the Cloud Foundry tile. Then go to your trail subbaccount. In the left menu go to 'Spaces' and click your space, now find your application in the list. Click it to see the details and find your application URL. Right click the url and use "Copy link address" to capture the entire URL.
+You can find this url by logging into your [SCP trial account](http://account.hanatrial.ondemand.com) and navigating to the Cloud Foundry environment by clicking the "Enter Your Trial Account" button. Then go to your trail subaccount. Next, in the left menu go to 'Spaces' and click your space, now find your application in the list. Click it to see the details and find your application URL. Right click the url and use "Copy link address" to capture the entire URL.
 
 You need this url in the next step.
 
@@ -163,7 +163,7 @@ You need this url in the next step.
 Go to https://cai.tools.sap/ and log in to your account. Now select the bot you have created.
 
 #### Step 2: Call the webhook
-Drill down into the @createbp intent. Go to the Build tab and drill down into the skill you created in the first assignment. Now go to the ACTIONS tab and add another message group by pressing the ADD A NEW MESSAGE GROUP button. Now select the CALL WEBHOOK option.
+Drill down into the @createbp intent. Go to the Build tab and drill down into the skill you created in the first assignment. Now go to the ACTIONS tab and add another message group by pressing the ADD A NEW MESSAGE GROUP button. Now select the CONNECT EXTERNAL SERVICE option and select the CALL WEBHOOK option.
 
 ![Call webhook](https://github.com/iemkek/SAP_Conversational_AI_Assignments/blob/master/img/BusinessPartnerLookup2.png)
 
